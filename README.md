@@ -1,2 +1,2 @@
 # RockPaperScissors
-Quick and simple C++ rock paper scissors game.
+C++ rock paper scissors game.
