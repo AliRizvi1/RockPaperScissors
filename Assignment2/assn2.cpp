@@ -49,6 +49,7 @@ int main(int argc, const char * argv[]) {
     else if (computer.getScore() == 0)
         cout<<"The computer won!"<<endl;
     else
+        //Else case shouldn't be possible, included to avoid errors just in case.
         cout<<"It was a tie? How's that possible..."<<endl;
     
     
