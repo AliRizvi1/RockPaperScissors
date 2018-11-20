@@ -23,9 +23,8 @@ public:
     int getScore() { return(score); }
     
     Player& operator--() {
-        this->score -= 1;
-        Player *op = new Player(score);
-        return *op;
+        score -= 1;
+        return(*this);
         
     }
 };
